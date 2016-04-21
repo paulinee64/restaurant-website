@@ -1,0 +1,22 @@
+border html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+/* developer colours */
+
+.red {
+	background-color: red;
+}
+.green {
+	background-color: green;
+}
+.lightgrey {
+	background-color: lightgrey
+}
+.blue {
+	background-color: blue;
+}
