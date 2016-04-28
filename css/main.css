@@ -1,0 +1,138 @@
+html {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+
+}
+
+/* developer colours */
+
+.red {
+	background-color: red;
+}
+.green {
+	background-color: green;
+}
+.lightgrey {
+	background-color: lightgrey
+}
+.blue {
+	background-color: blue;
+}
+
+.wrapper {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+/* header */
+
+header {
+	text-align: left;
+	margin: 0;
+	display: block;
+}
+
+h1 {
+	margin: 0;
+	padding: .5rem;
+}
+
+/*navbar*/
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+li {
+	background-color: black;
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: .2rem;
+}
+
+li:hover {
+	background-color: darkgrey;
+}
+
+/* banner */
+.banner img {
+	width: 100%;
+}
+
+/* menu */
+.Menu div {
+	width: 100%;
+	background: yellow;
+	float: left;
+}
+
+.menu img {
+	margin: 50px;
+	background: red;
+
+}
+
+
+/* about*/
+.about div {
+	width: 100%;
+	float: left;
+}
+
+.about img {
+	margin: 50px;
+	background: green;
+}
+
+/* menu*/
+.wrapper {
+	padding: 0;
+	margin: 0;
+}
+.menu div {
+	width: 100%;
+	background: green;
+	float: left;
+}
+
+.menu img {
+	margin: 50px;
+	background: red;
+}
+
+
+
+/* tablet, do this when the screen is 608px wide*/
+@media screen and (min-width: 60em) {
+
+	li {
+		width: 25%;
+	}
+	.features div {
+		width: 50%;
+	}
+}
+
+/*screen*/
+@media screen and (min-width: 90em) {
+
+	.features div {
+		width: 25%;
+	}
+}

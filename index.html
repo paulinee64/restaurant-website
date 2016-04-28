@@ -1,20 +1,110 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
   <title>Bitz & Bites</title>
-  <link href="main/main.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <!--link css in head-->
-
+  <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
-  <header>
-    <h1 class="red">Bitz & Bites<h1/>
-  </header>
-  <nav>
 
+<!--put a wrapper around everything to make it easier to target with media queries-->
+
+<div class="wrapper">
+<body>
+
+
+  <!--header-->
+  <header class="lightgrey">
+    <h1>Bitz & Bites<h1/>
+
+
+  <!--nav-->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li><!--when you make the about section, you will add id="about"-->
+      <li><a href="#Menu">Menu</a></li>
+      <li><a href="#Location">Location</a></li>
+      <li><a href="#Contact">Contact</a></li> <!-- takes you to footer-->
+    </ul>
   </nav>
+    </header>
+
+  <!--banner-->
+
+  <div class="banner">
+    <img class src="images/placeholder-16by9.svg">
+    <div class="banner-content">
+      <h2>Simple<h2>
+      <h2>Clean Eating<h2>
+      <p>Ready, Fresh and a Whole New Variety<p>
+      </div>
+  </div>
+
+  <!-- Menu-->
+  <div class="Menu" id="Menu">
+    <h2>menu</h2>
+
+    <div class="circle">
+      <img src="images/placeholder-circle.svg">
+    </div>
+
+    <div class="circle">
+      <img src="images/placeholder-circle.svg">
+    </div>
+
+    <div class="circle">
+      <img src="images/placeholder-circle.svg">
+    </div>
+
+    <div class="circle">
+      <img src="images/placeholder-circle.svg">
+    </div>
+  </div>
+
+<!--About-->
+  <section class="about" id="about">
+    <div class="about-content">
+    <h2>About</h2>
+    <p> Hungry after a long evening of studying? Come to bits and Bytes where are meals our prepared using the finest and freshest ingredients. We have a selection of drinks and excellent food ranging from healthy salads to delicious main dishes. Wether you need something quick or healthy including vegetarian and gluten free choices plus affordable, this is the place to be. We are just around the corner in the T building at the Algonquin College. Come on in!
+    </p>
+  </section>
+
+    <div class="4by3">
+      <img src="images/placeholder-4by3.svg">
+    </div>
+  </div>
+
+<!--menu-->
+
+<div class="wrapper">
+  <div class="Menu" id="Menu">
+    <h2>Menu</h2>
+
+    <div class="hex">
+      <img src="images/placeholder-4by3.svg">
+    </div>
+
+    <div class="hex">
+      <img src="images/placeholder-4by3.svg">
+    </div>
+
+    <div class="hex">
+      <img src="images/placeholder-4by3.svg">
+    </div>
+
+    <div class="hex">
+      <img src="images/placeholder-4by3.svg">
+    </div>
+
+</div>
+
+  <!--location & contact-->
+<div class="Location and contact" id="Location and contact">
+  <h2>Location and Contact</h2>
+
+<!--footer-->
+
 
 </body>
 </html>
