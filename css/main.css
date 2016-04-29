@@ -94,6 +94,23 @@ section {
 	padding: 0;
 }
 
+<!-- Main -->
+
+main {
+	display: block;
+}
+main img {
+	width: 100%;
+}
+
+main h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.about {
+	border-top: 30px solid black;
+}
 /* default & phone */
 
 @media screen and (min-width: 25em) {
@@ -105,12 +122,21 @@ section {
 	 width: 50%;
  }
 
+ .hero-text {
+	 font-size: 130%;
+	 top: 10em;
+ }
+
 .header h1 {
 	width: 50%;
 }
 
 header li{
 	display: inline;
+}
+
+main {
+	padding: 0 8em;
 }
 }
 
