@@ -111,6 +111,18 @@ main h2 {
 .about {
 	border-top: 30px solid black;
 }
+
+.menu-item {
+	width: 100%;
+	background: red;
+	text-align: center;
+	padding: 1em;
+	float: left;
+}
+
+.menu-item img{
+	width: 80%;
+}
 /* default & phone */
 
 @media screen and (min-width: 25em) {
@@ -138,15 +150,24 @@ header li{
 main {
 	padding: 0 8em;
 }
+
+
+.menu-item {
+	width: 50%;
+}
 }
 
 /* desktop, do this when the screen is 608px wide*/
 @media screen and (min-width: 60em) {
 
-
+	.menu-item {
+		width: 25%;
+	}
 }
 
 /*screen*/
 @media screen and (min-width: 90em) {
-
+ .menu-item img {
+	 width: 85%;
+ }
 }
