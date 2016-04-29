@@ -1,3 +1,4 @@
+
 html {
 	box-sizing: border-box;
 	padding: 0;
@@ -57,9 +58,9 @@ header nav li a:hover {
 	background-color: #a2a2a2;
 }
 
-<!-- hero -->
+
 section {
-	
+
 	display: block;
 }
 .hero img {
@@ -94,7 +95,7 @@ section {
 	padding: 0;
 }
 
-<!-- Main -->
+
 
 main {
 	display: block;
@@ -108,11 +109,15 @@ main h2 {
 	text-align: center;
 }
 
-.about, .menu,{
+.about, .menu, {
 	border-top: 30px solid black;
 }
 
-
+.menu{
+	display: block;
+	overflow: hidden;
+	border-top: 30px solid black;
+}
 .menu-item {
 	width: 100%;
 	text-align: center;
@@ -120,8 +125,22 @@ main h2 {
 	float: left;
 }
 
-.menu-item img{
+.menu-item img {
 	width: 80%;
+}
+
+footer {
+	background: yellow;
+	display: block;
+	padding: 1em;
+}
+
+footer img {
+	width: 32px;
+	margin-right: 1em;
+}
+footer div {
+	width: 100%;
 }
 /* default & phone */
 
@@ -135,7 +154,7 @@ main h2 {
  }
 
  .hero-text {
-	 font-size: 130%;
+	 font-size: 110%;
 	 top: 10em;
  }
 
@@ -155,22 +174,18 @@ main {
 .menu-item {
 	width: 50%;
 }
+
 }
 
-footer {
-	background: lightgrey;
-	display: block;
-}
 
-footer img {
-	width: 32px;
-}
 
 /* desktop, do this when the screen is 608px wide*/
 @media only screen and (min-width: 60em) {
 
 	.menu-item {
 		width: 25%;
+		font-size: 120%;
+		line-height: 1.4
 	}
 }
 
